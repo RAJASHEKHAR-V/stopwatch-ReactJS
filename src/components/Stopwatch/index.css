@@ -1,0 +1,163 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  min-height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 50px;
+}
+
+.watch-heading {
+  font-family: 'Roboto';
+  color: #333333;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+}
+
+.watch-card {
+  width: 30%;
+  min-height: 40vh;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-card {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-image {
+  width: 12%;
+  margin-right: 5px;
+}
+
+.timer-para {
+  font-family: 'Roboto';
+  color: #333333;
+  font-weight: 500;
+}
+
+.timing {
+  font-family: 'Roboto';
+  color: #333333;
+  font-weight: bold;
+}
+
+.buttons-card {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.start-button {
+  min-height: 30px;
+  min-width: 70px;
+  max-height: 35px;
+  max-width: 120px;
+  background-color: #1db05f;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.stop-button {
+  min-height: 30px;
+  min-width: 70px;
+  max-height: 35px;
+  max-width: 120px;
+  background-color: #ef0d36;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.reset-button {
+  min-height: 30px;
+  min-width: 70px;
+  max-height: 35px;
+  max-width: 120px;
+  background-color: #eaa800;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    align-items: center;
+    padding: 60px 0px;
+  }
+
+  .watch-heading {
+    width: 80%;
+    font-size: 35px;
+  }
+
+  .watch-card {
+    width: 80%;
+    min-height: 35vh;
+  }
+
+  .timer-para {
+    font-size: 18px;
+  }
+
+  .timing {
+    font-size: 30px;
+  }
+
+  .start-button {
+    font-size: 15px;
+  }
+
+  .stop-button {
+    font-size: 15px;
+  }
+
+  .reset-button {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .watch-heading {
+    font-size: 50px;
+  }
+
+  .timer-para {
+    font-size: 25px;
+  }
+
+  .timing {
+    font-size: 45px;
+  }
+
+  .start-button {
+    font-size: 18px;
+  }
+
+  .stop-button {
+    font-size: 18px;
+  }
+
+  .reset-button {
+    font-size: 18px;
+  }
+}
